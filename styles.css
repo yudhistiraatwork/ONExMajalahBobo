@@ -326,7 +326,7 @@ h3 {
 .edition-badge {
   position: absolute;
   right: 5%;
-  top: 42px;
+  top: 0px;
   display: grid;
   place-items: center;
   width: 118px;
