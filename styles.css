@@ -536,7 +536,7 @@ h3 {
 
 .highlight-card::before {
   content: "";
-  position: relative;
+  position: absolute;
   top: 26px;
   left: -10px;
   width: 14px;
@@ -631,8 +631,8 @@ h3 {
 
 .checkout-now {
   color: var(--yellow);
-  font-size: clamp(2.5rem, 5vw, 3rem);
-  font-weight: 900;
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-weight: 700;
   line-height: 1;
 }
 
