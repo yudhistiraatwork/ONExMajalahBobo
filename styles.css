@@ -538,7 +538,7 @@ h3 {
   content: "";
   position: absolute;
   top: 26px;
-  left: -10px;
+  left: 0px;
   width: 14px;
   height: 14px;
   background: var(--red);
