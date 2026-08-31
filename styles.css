@@ -607,7 +607,7 @@ h3 {
 
 .checkout-panel {
   padding: 28px;
-  background: var(--ink);
+  background: 121212;
   border-radius: 8px;
   color: #ffffff;
   box-shadow: var(--shadow);
