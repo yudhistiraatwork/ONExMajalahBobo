@@ -3,6 +3,7 @@
 
 :root {
   --ink: #182433;
+  --darkkompas: #1A1A1A;
   --muted: #5d6877;
   --paper: #fffaf0;
   --cream: #fff3cf;
@@ -607,7 +608,7 @@ h3 {
 
 .checkout-panel {
   padding: 28px;
-  background: 121212;
+  background: var(--darkkompas);
   border-radius: 8px;
   color: #ffffff;
   box-shadow: var(--shadow);
