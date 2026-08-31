@@ -350,16 +350,19 @@ h3 {
 }
 
 .edition-badge span {
-  font-size: 1rem;
+  font-size: 0.85rem !important; /* Gunakan !important jika tertimpa CSS lain */
   font-weight: 800;
   text-transform: uppercase;
+  display: block;                /* Agar memakan 1 baris penuh */
+  line-height: 1 !important;     /* Menghapus spasi/jarak kosong bawaan baris */
+  margin: 0 0 2px 0 !important;  /* Mengunci jarak ke teks "Koleksi" sebesar 2px */
 }
 
 .edition-badge strong {
   display: block;
   font-family: var(--heading-font);
-  font-size: 1.2rem;
-  line-height: 1;
+  font-size: 1.2rem !important;
+  line-height: 1 !important;
 }
 
 .section-band {
