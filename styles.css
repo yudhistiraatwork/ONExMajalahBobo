@@ -545,7 +545,7 @@ h3 {
   line-height: 1.6;
 }
 
-.highlight-card::before {
+/* .highlight-card::before {
   content: "";
   position: relative;
   top: 26px;
@@ -555,7 +555,7 @@ h3 {
   background: var(--red);
   border: 4px solid var(--yellow);
   border-radius: 50%;
-}
+} */
 
 .highlight-card h3 {
   margin-bottom: 8px;
