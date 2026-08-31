@@ -850,8 +850,8 @@ details p {
 
 .final-character {
   position: absolute;
-  right: -34px;
-  bottom: -24px;
+  right: -56px;
+  bottom: -44px;
   width: 112px;
   filter: drop-shadow(0 12px 20px rgba(24, 36, 51, 0.18));
   transform: rotate(7deg);
