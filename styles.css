@@ -328,8 +328,16 @@ h3 {
   position: absolute;
   right: 5%;
   top: 0px;
-  display: grid;
-  place-items: center;
+  
+  /* --- UBAH BAGIAN INI --- */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Mengetengahkan secara vertikal */
+  align-items: center;     /* Mengetengahkan secara horizontal */
+  gap: 2px;                /* Atur jarak presisi antar teks di sini */
+  line-height: 1.1;        /* Mencegah spasi baris bawaan yang terlalu renggang */
+  /* ---------------------- */
+
   width: 118px;
   height: 118px;
   color: #ffffff;
@@ -342,7 +350,7 @@ h3 {
 }
 
 .edition-badge span {
-  font-size: 0.25rem;
+  font-size: 0.5rem;
   font-weight: 800;
   text-transform: uppercase;
 }
