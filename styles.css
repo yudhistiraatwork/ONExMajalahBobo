@@ -608,7 +608,8 @@ h3 {
 
 .checkout-panel {
   padding: 28px;
-  background: var(--darker);
+  background:
+    linear-gradient(155deg, var(--darker), var(--ink));
   border-radius: 8px;
   color: #ffffff;
   box-shadow: var(--shadow);
