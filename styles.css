@@ -304,7 +304,7 @@ h3 {
   position: absolute;
   right: 21%;
   bottom: 30px;
-  width: min(54%, 276px);
+  width: min(65%, 328px);
   filter: drop-shadow(0 22px 34px rgba(24, 36, 51, 0.3));
   transform: rotate(-3deg);
 }
