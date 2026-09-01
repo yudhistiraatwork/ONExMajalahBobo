@@ -301,12 +301,14 @@ h3 {
 }
 
 .hero-cover {
-  position: absolute;
+  position: relative;
   right: 21%;
   bottom: 30px;
-  width: min(65%, 420px);
+  width: 100%;
+  max-width: 420px;
+  height: auto;
   filter: drop-shadow(0 22px 34px rgba(24, 36, 51, 0.3));
-  transform: rotate(-20deg);
+  transform: rotate(-6deg);
 }
 
 .hero-characters {
@@ -913,7 +915,7 @@ details p {
     font-size: 1.16rem;
   }
 
-  .hero-art {
+  /* .hero-art {
     min-height: 270px;
     margin-top: 8px;
   }
@@ -922,6 +924,29 @@ details p {
     right: 44%;
     bottom: 0;
     width: min(36vw, 180px);
+  } */
+  
+  .hero-art {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .hero-cover {
+    position: relative;
+    right: auto;            /* Hapus offset kanan yang jauh */
+    bottom: auto;
+    width: min(50vw, 280px); /* Ukuran naik dari 180px ke 280px */
+    transform: rotate(-6deg);
+    filter: drop-shadow(0 16px 24px rgba(24, 36, 51, 0.25));
+  }
+
+  .edition-badge {
+    position: absolute;
+    top: -10px;
+    right: 20%;/* Tempelkan badge di sudut gambar */
   }
 
   .hero-characters {
@@ -934,13 +959,13 @@ details p {
     display: none;
   }
 
-  .edition-badge {
+  /*.edition-badge {
     right: 13%;
     top: 18px;
     width: 88px;
     height: 88px;
     border-width: 5px;
-  }
+  }*/
 
   .edition-badge strong {
     font-size: 0.96rem;
@@ -1074,7 +1099,7 @@ details p {
     line-height: 1.45;
   }
 
-  .hero-art {
+  /*.hero-art {
     min-height: 168px;
     margin-top: 14px;
   }
@@ -1083,6 +1108,30 @@ details p {
     right: 47%;
     bottom: -18px;
     width: min(34vw, 132px);
+  } */
+
+  .hero-art {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .hero-cover {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    width: min(65vw, 220px); /* Ukuran naik dari 132px ke 220px agar jelas */
+    transform: rotate(-4deg);
+    filter: drop-shadow(0 12px 20px rgba(24, 36, 51, 0.2));
+  }
+
+  .edition-badge {
+    position: absolute;
+    top: -10px;
+    right: 12%;
+    transform: scale(0.85); /* Dikecilkan sedikit agar seimbang dengan HP */
   }
 
   .hero-characters {
@@ -1091,9 +1140,9 @@ details p {
     width: min(62vw, 242px);
   }
 
-  .edition-badge {
+  /*.edition-badge {
     display: none;
-  }
+  } */
 
   .bundle,
   .benefits,
