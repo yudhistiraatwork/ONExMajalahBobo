@@ -215,7 +215,7 @@ h1 {
   font-family: var(--heading-font);
   font-size: clamp(3rem, 6vw, 3.25rem);
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0;
 }
 
@@ -262,7 +262,7 @@ h3 {
 .price-before,
 .checkout-before {
   color: #697586;
-  font-weight: 800;
+  font-weight: 700;
   text-decoration: line-through;
   text-decoration-thickness: 2px;
 }
@@ -595,35 +595,78 @@ h3 {
   color: var(--red);
 }
 
+/* Update grid dari 3 kolom jadi 4 kolom (karena tambah Detik) */
 .countdown {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 120px));
+  grid-template-columns: repeat(4, minmax(0, 96px)); /* Lebar diatur agar pas 4 kotak */
   gap: 12px;
-  margin-top: 30px;
+  margin-top: 24px;
 }
 
 .countdown div {
-  padding: 16px 12px;
+  padding: 14px 8px; /* Disedikitkan agar pas di layar sedang */
   background: var(--cream);
   border: 1px solid rgba(242, 140, 40, 0.3);
   border-radius: 8px;
   text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Membedakan kotak detik secara visual agar perhatian mata tertuju ke pergerakan detik */
+.countdown div.is-seconds {
+  background: #fff7ed; /* Sedikit lebih terang/warm */
+  border-color: rgba(242, 140, 40, 0.8);
 }
 
 .countdown strong {
   display: block;
   color: var(--blue-deep);
-  font-size: 2rem;
+  font-size: 1.75rem; /* Diturunkan sedikit dari 2rem agar 4 kotak muat rapi */
   line-height: 1;
+  font-weight: 800;
 }
 
 .countdown span {
   display: block;
   margin-top: 6px;
   color: var(--muted);
-  font-size: 0.84rem;
+  font-size: 0.75rem;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+/* === TAMBAHAN UNTUK EFEK LIVE / DINAMIS === */
+
+.countdown-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--blue-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #f28c28; /* Menyesuaikan warna oranye tema kamu */
+  border-radius: 50%;
+  animation: pulse-ring 1.5s infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(242, 140, 40, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(242, 140, 40, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(242, 140, 40, 0);
+  }
 }
 
 .checkout-panel {
