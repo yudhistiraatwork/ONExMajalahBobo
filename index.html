@@ -6,7 +6,7 @@
     <title>Kompas ONE x Bobo | Pre-order Edisi Koleksi</title>
     <meta
       name="description"
-      content="Pre-order paket Kompas ONE x Bobo: Bobo Edisi Koleksi, stiker Bobo limited, Kompas.com PLUS 1 bulan, dan Kompas.id 1 bulan seharga Rp99.000."
+      content="Pre-order paket Kompas ONE x Bobo: Bobo Edisi Koleksi, stiker Bobo limited, Kompas.com PLUS 1 bulan, dan Kompas Digital Premium bulan seharga Rp99.000."
     >
     <link rel="preload" as="image" href="Assets/Optimized/savannah.jpg">
     <link rel="preload" as="image" href="Assets/Optimized/bobo-cover.png">
@@ -40,28 +40,40 @@
             <h1 id="hero-title">Dulu Ditunggu Tiap Minggu. Kini Hadir untuk Dikoleksi.</h1>
             <p class="hero-lead">
             Temui lagi cergam klasik Bobo era 80–90an dalam edisi koleksi spesial, 
-            lengkap dengan stiker Bobo Limited Edition serta akses Kompas.com PLUS dan Kompas.id selama 1 bulan.
+            lengkap dengan stiker Bobo Limited Edition serta akses Kompas.com PLUS dan Kompas Digital Premium selama 1 bulan.
             </p>
 
         <!-- Timer di dalam hero-copy -->
-        <div class="countdown" aria-label="Hitung mundur pre-order">
-          <div>
-          <strong id="days-left">--</strong>
-          <span>hari</span>
-          </div>
           
-          <div>
-          <strong id="hours-left">--</strong>
-          <span>jam</span>
-          </div>
-          
-          <div>
-          <strong id="minutes-left">--</strong>
-          <span>menit</span>
-          </div>
-          
+        <!-- Badge penegas bahwa waktu sedang berjalan -->
+        <div class="countdown-status">
+          <span class="pulse-dot"></span>
+          <span>Sisa Waktu Pre-Order</span>
         </div>
 
+        <div class="countdown" aria-label="Hitung mundur pre-order">
+          <div>
+            <strong id="days-left">00</strong>
+            <span>hari</span>
+          </div>
+  
+          <div>
+            <strong id="hours-left">00</strong>
+            <span>jam</span>
+          </div>
+  
+          <div>
+            <strong id="minutes-left">00</strong>
+            <span>menit</span>
+          </div>
+
+          <!-- Kolom Detik dengan class khusus 'is-seconds' -->
+          <div class="is-seconds">
+            <strong id="seconds-left">00</strong>
+            <span>detik</span>
+          </div>
+        </div>
+          
         <!-- Tombol CTA di dalam hero-copy -->
         <div class="hero-actions">
           <a class="button button-primary" href="https://gerai.kompas.id/belanja/bundling-kompasid/paket-premium-bacaan-klasik-edisi-koleksi-cergam-klasik-bobo-kompas-one/?utm_source=kompascom&utm_medium=landingpage" target="_blank" rel="noopener noreferrer">Pre-order Sekarang</a>
@@ -108,13 +120,13 @@
             
             <article class="bundle-card">
               <span class="item-token">03</span>
-              <h3>Membership Kompas.com PLUS 1 Bulan</h3>
+              <h3>Membership Kompas.com PLUS <span class="nobreak">1 Bulan</span> </h3>
               <p>Ikuti perkembangan terbaru di Kompas.com dengan pengalaman membaca yang lebih nyaman tanpa gangguan iklan.</p>
             </article>
             
             <article class="bundle-card">
               <span class="item-token">04</span>
-              <h3>Kompas.id Premium 1 Bulan</h3>
+              <h3>Akses ke Kompas Digital Premium</h3>
               <p>Nikmati selama 1 bulan akses ke jurnalisme mendalam dan berbagai informasi yang membantu kamu memahami cerita di balik peristiwa.</p>
             </article>
             
@@ -195,7 +207,7 @@
               <li>Edisi Koleksi Cergam Klasik Bobo</li>
               <li>Stiker Bobo Limited Edition</li>
               <li>Kompas.com PLUS 1 bulan</li>
-              <li>Kompas.id Premium 1 bulan</li>
+              <li>Kompas Digital Premium 1 bulan</li>
             </ul>
             <a class="button button-primary checkout-button" href="https://gerai.kompas.id/belanja/bundling-kompasid/paket-premium-bacaan-klasik-edisi-koleksi-cergam-klasik-bobo-kompas-one/?utm_source=kompascom&utm_medium=landingpage">Pre-order Sekarang</a>
             <!--p class="checkout-note">Harga normal berlaku setelah 19 September 2026.</p-->
@@ -213,7 +225,7 @@
             <details open>
               <summary>Apa saja yang saya dapatkan dalam paket KOMPAS ONE x Bobo?</summary>
               <p>
-                Kamu akan mendapatkan Edisi Koleksi Cergam Klasik Bobo, stiker Bobo Limited Edition, akses Kompas.com PLUS selama 1 bulan, serta akses Kompas.id selama 1 bulan.
+                Kamu akan mendapatkan Edisi Koleksi Cergam Klasik Bobo, stiker Bobo Limited Edition, akses Kompas.com PLUS selama 1 bulan, serta akses Kompas Digital Premium selama 1 bulan.
               </p>
             </details>
             
@@ -238,7 +250,7 @@
             <details>
               <summary>Bagaimana cara memakai membership Kompas?</summary>
               <p>
-                Informasi aktivasi membership Kompas.com PLUS dan Kompas.id dapat dikirim bersama
+                Informasi aktivasi membership Kompas.com PLUS dan Kompas Digital Premium dapat dikirim bersama
                 detail pesanan setelah checkout.
               </p>
             </details>
@@ -249,16 +261,16 @@
       <section class="final-cta" id="final-cta" aria-labelledby="final-title">
         <div class="section-inner final-layout">
           <div class="final-copy">
-            <p class="section-kicker">Terakhir sebelum checkout</p>
+            <p class="section-kicker">Sebelum Pre-Order Berakhir</p>
             <h2 id="final-title">Saatnya Bertemu Lagi dengan Bobo.</h2>
             <p>
-              Perpaduan cerita klasik yang menghangatkan dan akses informasi yang bisa kamu
-              andalkan, semua dalam satu paket.
+              Bawa pulang kembali cerita yang pernah menemani masa kecilmu, 
+              dalam edisi khusus yang hadir untuk dibaca dan dikoleksi.
             </p>
             <ul class="final-benefits">
-              <li>Cergam Klasik Bobo edisi koleksi</li>
-              <li>Stiker Bobo Limited Edition</li>
-              <li>Kompas.id dan Kompas.com PLUS masing-masing 1 bulan</li>
+              <li>Edisi khusus untuk melengkapi koleksimu</li>
+              <li>Nostalgia yang bisa kamu baca kembali</li>
+              <li>Jangan lewatkan selama periode pre-order</li>
             </ul>
           </div>
           <div class="final-panel">
@@ -269,7 +281,7 @@
               <small>Rp159.000</small>
               -->
             </div>
-            <a class="button button-primary final-button" href="https://gerai.kompas.id/belanja/bundling-kompasid/paket-premium-bacaan-klasik-edisi-koleksi-cergam-klasik-bobo-kompas-one/?utm_source=kompascom&utm_medium=landingpage">Pesan Sekarang</a>
+            <a class="button button-primary final-button" href="https://gerai.kompas.id/belanja/bundling-kompasid/paket-premium-bacaan-klasik-edisi-koleksi-cergam-klasik-bobo-kompas-one/?utm_source=kompascom&utm_medium=landingpage">Pre-order Sekarang</a>
             <p>Penawaran ini berlaku sampai <strong>19 September 2026</strong>. Jangan sampai kehabisan.</p>
             <img class="final-character" src="Assets/Optimized/1-bobo.png" alt="">
           </div>
@@ -282,7 +294,7 @@
         <strong>Rp99.000</strong>
         <span>Pesan sebelum 19 Sep 2026</span>
       </div>
-      <a class="button button-primary" href="https://gerai.kompas.id/belanja/bundling-kompasid/paket-premium-bacaan-klasik-edisi-koleksi-cergam-klasik-bobo-kompas-one/?utm_source=kompascom&utm_medium=landingpage">Checkout</a>
+      <a class="button button-primary" href="https://gerai.kompas.id/belanja/bundling-kompasid/paket-premium-bacaan-klasik-edisi-koleksi-cergam-klasik-bobo-kompas-one/?utm_source=kompascom&utm_medium=landingpage">Pre-order Sekarang</a>
     </div>
 
     <script src="script.js"></script>
