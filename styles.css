@@ -1231,7 +1231,8 @@ details p {
     gap: 12px;
     padding: 10px;
     color: #ffffff;
-    background: var(--darker);
+    background:
+      linear-gradient(155deg, var(--darker), var(--ink));
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 8px;
     box-shadow: 0 18px 40px rgba(24, 36, 51, 0.28);
@@ -1256,7 +1257,7 @@ details p {
   .mobile-sticky span {
     display: block;
     color: rgba(255, 255, 255, 0.68);
-    font-size: 0.76rem;
+    font-size: 0.75rem;
     line-height: 1.25;
   }
 
