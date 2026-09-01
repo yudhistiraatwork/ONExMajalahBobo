@@ -213,9 +213,9 @@ h1 {
   max-width: 740px;
   color: var(--ink);
   font-family: var(--heading-font);
-  font-size: clamp(3rem, 6vw, 3.25rem);
+  font-size: clamp(2.5rem, 6vw, 3rem);
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: 0;
 }
 
