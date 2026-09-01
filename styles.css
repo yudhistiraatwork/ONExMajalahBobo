@@ -252,6 +252,13 @@ h3 {
   margin-bottom: 22px;
 }
 
+.hero-brand-logo {
+  height: 32px;         /* Sesuaikan tingginya agar pas (antara 28px - 36px) */
+  width: auto;          /* Menjaga proporsi logo agar tidak terdistorsi */
+  display: block;
+  margin-bottom: 12px;  /* Jarak antara logo dengan Judul Utama */
+}
+
 .price-current {
   color: var(--red);
   font-size: clamp(1.75rem, 4vw, 1.875rem);
@@ -1084,6 +1091,11 @@ details p {
     background:
       linear-gradient(180deg, rgba(255, 250, 240, 0.95) 0%, rgba(255, 250, 240, 0.84) 48%, rgba(255, 250, 240, 0.22) 100%),
       url("Assets/Optimized/savannah-vertical.jpg") center bottom / cover no-repeat;
+  }
+
+  .hero-brand-logo {
+    height: 24px;       /* Sedikit lebih kecil di layar HP */
+    margin-bottom: 8px;
   }
 
   .hero-inner,
