@@ -31,58 +31,57 @@
 
     <main id="main">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-overlay"></div>
-        <div class="hero-inner">
-          <div class="hero-copy">
-            <p class="eyebrow">KOMPAS ONE x BOBO</p>
-            <h1 id="hero-title">Dulu Ditunggu Tiap Minggu. Kini Hadir untuk Dikoleksi.</h1>
-            <p class="hero-lead">
-              Temui lagi cergam klasik Bobo era 80–90an dalam edisi koleksi spesial, 
-              lengkap dengan stiker Bobo Limited Edition serta akses Kompas.com PLUS dan Kompas.id selama 1 bulan.
-            </p>
-            
-            <!--div class="hero-price" aria-label="Harga spesial pre-order">
-              <span class="price-current">Rp99.000</span>
-              <span class="price-before">Rp159.000</span>
-              <span class="save-pill">Hemat lebih dari 35%</span>
-          </div-->
-            
-          <div class="countdown" aria-label="Hitung mundur pre-order">
-              <div>
-                <strong id="days-left">--</strong>
-                <span>hari</span>
-              </div>
-              <div>
-                <strong id="hours-left">--</strong>
-                <span>jam</span>
-              </div>
-              <div>
-                <strong id="minutes-left">--</strong>
-                <span>menit</span>
-              </div>
-            </div>
-          </div>
-          
-            <div class="hero-actions">
-              <a class="button button-primary" href="https://gerai.kompas.id/belanja/bundling-kompasid/paket-premium-bacaan-klasik-edisi-koleksi-cergam-klasik-bobo-kompas-one/?utm_source=kompascom&utm_medium=landingpage">Pre-order Sekarang</a>
-              <!--a class="button button-secondary" href="#bundle">Lihat isi paket</a-->
-            </div>
-            <p class="deadline-note">
-              Harga spesial Rp99.000 selama periode pre-order hingga 19 September 2026.
-            </p>
-          </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
 
-          <div class="hero-art" aria-hidden="true">
-            <img class="hero-cover" src="Assets/Optimized/bobo-cover.png" alt="">
-            <img class="hero-characters" src="Assets/Optimized/all-bobo.png" alt="">
-            <img class="hero-bobo" src="Assets/Optimized/1-bobo.png" alt="">
-            <div class="edition-badge">
-              <span>Edisi</span>
-              <strong>Koleksi</strong>
-            </div>
-          </div>
+    <!-- 1. KOLOM KIRI (hero-copy) -->
+    <div class="hero-copy">
+      <p class="eyebrow">KOMPAS ONE x BOBO</p>
+      <h1 id="hero-title">Dulu Ditunggu Tiap Minggu. Kini Hadir untuk Dikoleksi.</h1>
+      <p class="hero-lead">
+        Temui lagi cergam klasik Bobo era 80–90an dalam edisi koleksi spesial, 
+        lengkap dengan stiker Bobo Limited Edition serta akses Kompas.com PLUS dan Kompas.id selama 1 bulan.
+      </p>
+
+      <!-- Timer di dalam hero-copy -->
+      <div class="countdown" aria-label="Hitung mundur pre-order">
+        <div>
+          <strong id="days-left">--</strong>
+          <span>hari</span>
         </div>
-      </section>
+        <div>
+          <strong id="hours-left">--</strong>
+          <span>jam</span>
+        </div>
+        <div>
+          <strong id="minutes-left">--</strong>
+          <span>menit</span>
+        </div>
+      </div>
+
+      <!-- Tombol CTA di dalam hero-copy -->
+      <div class="hero-actions">
+        <a class="button button-primary" href="https://gerai.kompas.id/belanja/bundling-kompasid/paket-premium-bacaan-klasik-edisi-koleksi-cergam-klasik-bobo-kompas-one/?utm_source=kompascom&utm_medium=landingpage" target="_blank" rel="noopener noreferrer">Pre-order Sekarang</a>
+      </div>
+
+      <!-- Catatan di dalam hero-copy -->
+      <p class="deadline-note">
+        Harga spesial Rp99.000 selama periode pre-order hingga 19 September 2026.
+      </p>
+    </div> <!-- ✅ .hero-copy ditutup secara benar DI SINI -->
+
+    <!-- 2. KOLOM KANAN (hero-art) -->
+    <div class="hero-art" aria-hidden="true">
+      <img class="hero-cover" src="Assets/Optimized/bobo-cover.png" alt="">
+      <img class="hero-characters" src="Assets/Optimized/all-bobo.png" alt="">
+      <div class="edition-badge">
+        <span>Edisi</span>
+        <strong>Koleksi</strong>
+      </div>
+    </div>
+
+  </div> <!-- ✅ .hero-inner ditutup di sini -->
+</section>
 
       <section class="bundle section-band" id="bundle" aria-labelledby="bundle-title">
         <div class="section-inner">
