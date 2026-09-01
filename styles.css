@@ -308,13 +308,13 @@ h3 {
   transform: rotate(-3deg);
 }
 
-/* .hero-characters {
+.hero-characters {
   position: absolute;
   right: -9%;
   bottom: -28px;
   width: min(72%, 378px);
   filter: drop-shadow(0 20px 30px rgba(24, 36, 51, 0.2));
-} */
+}
 
 .hero-bobo {
   position: absolute;
