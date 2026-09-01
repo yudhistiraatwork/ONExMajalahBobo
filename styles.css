@@ -960,7 +960,7 @@ details p {
   .pricing-layout,
   .faq-layout,
   .final-layout {
-    gap: 36px;
+    gap: 8px;
   }
 
   .benefits-visual {
