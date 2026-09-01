@@ -598,18 +598,20 @@ h3 {
 /* Update grid dari 3 kolom jadi 4 kolom (karena tambah Detik) */
 .countdown {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 96px)); /* Lebar diatur agar pas 4 kotak */
-  gap: 12px;
+  grid-template-columns: repeat(4, 1fr); /* Lebar diatur agar pas 4 kotak */
+  gap: 8px;
   margin-top: 24px;
+  width: 100%;
+  max-width: 420px;
 }
 
 .countdown div {
-  padding: 14px 8px; /* Disedikitkan agar pas di layar sedang */
+  padding: 12px 4px; /* Disedikitkan agar pas di layar sedang */
   background: var(--cream);
   border: 1px solid rgba(242, 140, 40, 0.3);
   border-radius: 8px;
   text-align: center;
-  transition: all 0.3s ease;
+  /*transition: all 0.3s ease; */
 }
 
 /* Membedakan kotak detik secara visual agar perhatian mata tertuju ke pergerakan detik */
@@ -621,16 +623,16 @@ h3 {
 .countdown strong {
   display: block;
   color: var(--blue-deep);
-  font-size: 1.75rem; /* Diturunkan sedikit dari 2rem agar 4 kotak muat rapi */
-  line-height: 1;
+  font-size: 1.5rem; /* Ukuran font disesuaikan agar pas di layar HP */
+  line-height: 1.1;
   font-weight: 800;
 }
 
 .countdown span {
   display: block;
-  margin-top: 6px;
+  margin-top: 4px;
   color: var(--muted);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 800;
   text-transform: uppercase;
 }
