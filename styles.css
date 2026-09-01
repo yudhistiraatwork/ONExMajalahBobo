@@ -958,7 +958,10 @@ details p {
 
   .benefits-layout,
   .pricing-layout,
-  .faq-layout,
+  .faq-layout { 
+    gap: 36px; 
+  }
+  
   .final-layout {
     gap: 8px;
   }
