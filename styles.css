@@ -156,7 +156,7 @@ a {
   align-items: center;
   min-height: 82svh;
   max-height: 740px;
-  padding: 112px 0 44px;
+  padding: 132px 0 44px;
   overflow: hidden;
   background:
     linear-gradient(90deg, rgba(255, 250, 240, 0.94) 0%, rgba(255, 250, 240, 0.86) 40%, rgba(255, 250, 240, 0.18) 100%),
@@ -1080,7 +1080,7 @@ details p {
 
   .hero {
     min-height: auto;
-    padding: 82px 0 0;
+    padding: 108px 0 0;
     background:
       linear-gradient(180deg, rgba(255, 250, 240, 0.95) 0%, rgba(255, 250, 240, 0.84) 48%, rgba(255, 250, 240, 0.22) 100%),
       url("Assets/Optimized/savannah-vertical.jpg") center bottom / cover no-repeat;
