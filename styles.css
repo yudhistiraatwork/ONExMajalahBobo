@@ -195,8 +195,8 @@ a {
 .section-kicker {
   margin: 0 0 14px;
   color: var(--red);
-  font-size: 0.82rem;
-  font-weight: 900;
+  font-size: 0.875rem;
+  font-weight: 800;
   letter-spacing: 0;
   text-transform: uppercase;
 }
@@ -376,7 +376,7 @@ h3 {
 
 .section-heading {
   max-width: 760px;
-  margin-bottom: 34px;
+  margin-bottom: 0px;
 }
 
 .bundle-grid {
@@ -1049,7 +1049,7 @@ details p {
   }
 
   .price-current {
-    font-size: 1.78rem;
+    font-size: 1.75rem;
   }
 
   .save-pill {
@@ -1061,12 +1061,12 @@ details p {
     flex: 1 1 0;
     min-width: 0;
     padding: 0 12px;
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     text-align: center;
   }
 
   .deadline-note {
-    font-size: 0.82rem;
+    font-size: 0.875rem;
     line-height: 1.45;
   }
 
