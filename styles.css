@@ -1000,7 +1000,7 @@ details p {
   .topbar-cta {
     min-height: 38px;
     padding: 0 11px;
-    font-size: 0.78rem;
+    font-size: 0.875rem;
   }
 
   .hero {
@@ -1025,22 +1025,22 @@ details p {
 
   h1 {
     margin-bottom: 12px;
-    font-size: clamp(2rem, 9.3vw, 2.85rem);
+    font-size: clamp(2rem, 9.3vw, 2.5rem);
     line-height: 1.08;
   }
 
   h2 {
-    font-size: clamp(1.65rem, 8vw, 2.05rem);
+    font-size: clamp(1.5rem, 8vw, 1.75rem);
     line-height: 1.12;
   }
 
   h3 {
-    font-size: 1.08rem;
+    font-size: 1.25rem;
   }
 
   .hero-lead {
     margin-bottom: 14px;
-    font-size: 0.94rem;
+    font-size: 1rem;
     line-height: 1.5;
   }
 
@@ -1054,7 +1054,7 @@ details p {
 
   .save-pill {
     min-height: 30px;
-    font-size: 0.78rem;
+    font-size: 0.875rem;
   }
 
   .hero-actions .button {
