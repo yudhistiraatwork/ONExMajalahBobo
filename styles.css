@@ -182,8 +182,8 @@ a {
 
 .hero-inner {
   display: grid;
-  grid-template-columns: minmax(0, 0.96fr) minmax(320px, 0.78fr);
-  gap: 24px;
+  grid-template-columns: 1fr 1fr; /* Membagi 2 kolom seimbang */
+  gap: 3.5rem;/* Jarak lega antara teks & gambar */
   align-items: center;
 }
 
@@ -297,18 +297,20 @@ h3 {
 
 .hero-art {
   position: relative;
-  min-height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-cover {
   position: relative;
-  right: 21%;
-  bottom: 30px;
   width: 100%;
-  max-width: 420px;
-  height: auto;
-  filter: drop-shadow(0 22px 34px rgba(24, 36, 51, 0.3));
-  transform: rotate(-6deg);
+  max-width: 380px;  /* Diturunkan ke 380px agar tidak menabrak teks */
+  height: auto;/* Mencegah gambar tertarik/stretch */
+  margin: 0 auto;
+  display: block;
+  filter: drop-shadow(0 20px 30px rgba(24, 36, 51, 0.25));
+  transform: rotate(-4deg);
 }
 
 .hero-characters {
@@ -329,9 +331,13 @@ h3 {
 }
 
 .edition-badge {
-  position: absolute;
+  /*position: absolute;
   right: 5%;
-  top: 0px;
+  top: 0px; */
+  position: absolute;
+  top: -10px;
+  right: 5%;
+  z-index: 2;
   
   /* --- UBAH BAGIAN INI --- */
   display: flex;
@@ -892,8 +898,8 @@ details p {
   }
 
   .hero-inner {
-    grid-template-columns: 1fr;
-    gap: 0;
+    grid-template-columns: 1fr; /* Tumpuk jadi 1 kolom */
+    gap: 2rem;
   }
 
   .hero-copy {
@@ -927,26 +933,21 @@ details p {
   } */
   
   .hero-art {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 100%;
     margin-top: 1.5rem;
+    width: 100%;
   }
 
   .hero-cover {
-    position: relative;
-    right: auto;            /* Hapus offset kanan yang jauh */
-    bottom: auto;
-    width: min(50vw, 280px); /* Ukuran naik dari 180px ke 280px */
-    transform: rotate(-6deg);
-    filter: drop-shadow(0 16px 24px rgba(24, 36, 51, 0.25));
+    width: 65%;/* Lebar proporsional di HP */
+    max-width: 240px;  /* Batas maksimal di HP */
+    height: auto !important; /* WAJIB: Menjaga rasio asli gambar agar TIDAK STRETCH */
+    transform: rotate(-3deg);
   }
 
   .edition-badge {
-    position: absolute;
-    top: -10px;
-    right: 20%;/* Tempelkan badge di sudut gambar */
+    top: -15px;
+    right: 15%;
+    transform: scale(0.8);
   }
 
   .hero-characters {
