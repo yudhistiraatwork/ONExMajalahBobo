@@ -318,7 +318,7 @@ h3 {
   margin: 0 auto;
   display: block;
   filter: drop-shadow(0 20px 30px rgba(24, 36, 51, 0.25));
-  transform: rotate(-4deg);
+  /*transform: rotate(-4deg); */
 }
 
 .hero-characters {
