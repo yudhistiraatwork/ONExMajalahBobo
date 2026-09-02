@@ -1072,7 +1072,7 @@ details p {
 
 @media (max-width: 640px) {
   body {
-    padding-bottom: 76px;
+    padding-bottom: 0px;
   }
 
   .topbar {
