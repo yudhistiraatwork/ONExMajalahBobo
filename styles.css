@@ -1392,6 +1392,30 @@ details p {
   .hero-art {
     min-height: 150px;
   }
+  
+  .countdown {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important; /* Paksa tetap 4 kolom */
+    gap: 6px !important;                              /* Perkecil jarak antar-kotak */
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .countdown div {
+    padding: 8px 2px !important; /* Perkecil padding dalam kotak */
+    min-width: 0 !important; /* Hapus batas min-width jika ada */
+  }
+
+  .countdown strong {
+    font-size: 1.15rem !important; /* Kecilkan ukuran angka sedikit */
+    line-height: 1;
+  }
+
+  .countdown span {
+    font-size: 0.6rem !important; /* Kecilkan label HARI/JAM/MENIT/DETIK */
+    margin-top: 3px;
+  }
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
