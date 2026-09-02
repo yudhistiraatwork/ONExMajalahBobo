@@ -313,7 +313,7 @@ h3 {
 .hero-cover {
   position: relative;
   width: 100%;
-  max-width: 380px;  /* Diturunkan ke 380px agar tidak menabrak teks */
+  max-width: 480px;  /* Diturunkan ke 380px agar tidak menabrak teks */
   height: auto;/* Mencegah gambar tertarik/stretch */
   margin: 0 auto;
   display: block;
