@@ -269,7 +269,8 @@ h3 {
 .price-before,
 .checkout-before {
   color: #697586;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1.25rem;
   text-decoration: line-through;
   text-decoration-thickness: 2px;
 }
